@@ -68,6 +68,6 @@ document.writeln(Mayus2);
 
 var hola= "Hola"
 var mundo= "mundo"
-var holaMundo = hola.concat(" "+mundo)
+var holaMundo = hola.concat(" "+mundo);
 
-document.writeln(holaMundo)
+document.writeln(holaMundo);

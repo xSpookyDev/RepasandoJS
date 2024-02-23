@@ -44,3 +44,48 @@ document.write("<br>")
 
 document.write(n1 < n2 || n1 > n2) //ejemplo or, da true
 
+//operador de asignacion
+
+let miNumero =10;
+console.log(miNumero)
+
+miNumero = 20;
+
+console.log(miNumero);
+
+//operador + = 
+
+miNumero += 5;
+console.log(miNumero);
+
+//operador -= 
+
+miNumero -= 3;
+
+console.log(miNumero);
+
+//operador *=
+
+miNumero *= 4;
+console.log(miNumero)
+
+//operador  /=
+
+miNumero /= 4;
+console.log(miNumero)
+
+//exponente **=
+
+miNumero **=2;
+console.log(miNumero)
+
+//ejemplo valor dentro de rango 
+
+let minimo =0, maximo = 5;
+
+let dato = 3;
+
+//revision dentro de rango
+
+let dentroRango = dato >= minimo && dato <= maximo;
+console.log(dentroRango)

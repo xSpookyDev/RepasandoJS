@@ -76,3 +76,4 @@ function cine(pelicula){
 }
 cine(mostrar => document.write(mostrar));
 
+

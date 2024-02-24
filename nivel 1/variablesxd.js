@@ -30,16 +30,15 @@ const nombre2 = prompt("Ingresa tu nombre");
 alert(nombre2)
 */
 
-let a = 15
-console.log(a)
-
+let a = 15;
+console.log(a);
 
 //Reglas de nombres de variables
 
 //letras, $, _, posteriormente se pueden usar numeros
-let $miNumero1= 10;
+let $miNumero1 = 10;
 
-console.log($miNumero1)
+console.log($miNumero1);
 
 let _miNumero2 = 31;
-console.log(_miNumero2)
+console.log(_miNumero2);

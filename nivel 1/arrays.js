@@ -45,19 +45,18 @@ lucas se saco un ${lucas}
 document.write(notas)
 
 */
-let numerosArreglo = [13,21, 43,12 ,31];
+let numerosArreglo = [13, 21, 43, 12, 31];
 //let numerosArreglo = [];
 numerosArreglo[0] = 13;
 numerosArreglo[1] = 21;
-numerosArreglo[4] = 'Hola';
+numerosArreglo[4] = "Hola";
 
-console.log(`Elemento 1 - [0]: ${numerosArreglo[0]}`)
-console.log(`Elemento 3 - [2]: ${numerosArreglo[3]}`)
-console.log(`Elemento 3 - [4]: ${numerosArreglo[4]}`)
-
+console.log(`Elemento 1 - [0]: ${numerosArreglo[0]}`);
+console.log(`Elemento 3 - [2]: ${numerosArreglo[3]}`);
+console.log(`Elemento 3 - [4]: ${numerosArreglo[4]}`);
 
 //iteracion
 console.log(numerosArreglo.length);
-for (let i = 0; i< numerosArreglo.length; i++){
-    console.log(numerosArreglo[i])
+for (let i = 0; i < numerosArreglo.length; i++) {
+  console.log(numerosArreglo[i]);
 }

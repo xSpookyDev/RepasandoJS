@@ -107,14 +107,14 @@ console.log(persona1.toString());
 let persona2 = new Persona("Carlos", "miranda", 31);
 console.log(persona2.toString());
 
-let empleado1 = new Empleado("karla", "Gomez", 42, "2000",)
-console.log(empleado1.toString())
+let empleado1 = new Empleado("karla", "Gomez", 42, "2000");
+console.log(empleado1.toString());
 
-let empleado2 = new Empleado("laura", "quinteros", 33, "1490")
-console.log(empleado2.toString())
+let empleado2 = new Empleado("laura", "quinteros", 33, "1490");
+console.log(empleado2.toString());
 
-let cliente1 = new Cliente("Ricardo", "Montecinos", 24, new Date())
-console.log(cliente1.toString())
+let cliente1 = new Cliente("Ricardo", "Montecinos", 24, new Date());
+console.log(cliente1.toString());
 
-cliente2 = new Cliente("Maria", "Lara", 32, new Date())
-console.log(cliente2.toString())
+cliente2 = new Cliente("Maria", "Lara", 32, new Date());
+console.log(cliente2.toString());

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con JS</title>
+    <script></script>
+</head>
+<body>
+    
+    <h1 id="titulo">Ejemplo DOM con JS</h1>
+    <p id="parrafo">Salu2</p>
+    <p id="pregunta">angular or react</p>
+    
+    <script>
+     
+        let parrafos = document.getElementsByTagName("h1");
+        console.log(`Nro. parrafos: ${parrafos.length}`);
+        for(let i =0; i<parrafos.length;i++){
+            console.log(`i:${i} - ${parrafos[i].innerHTML}`)
+        }
+        
+        </script>
+</body>
+
+</html>

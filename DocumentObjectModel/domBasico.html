@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo DOM con JS</title>
+    <style>
+      .azul {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo" class="azul">Ejemplo DOM con JS</h1>
+    <p id="parrafo" class="azul">Salu2</p>
+    <p id="pregunta" class="azul">angular or react</p>
+
+    <script>
+      let elementos = document.querySelectorAll("h1.azul");
+      console.log(`Nro. elementos: ${elementos.length}`);
+      for (let i = 0; i < elementos.length; i++) {
+        console.log(`i:${i} - ${elementos[i].innerHTML}`);
+      }
+    </script>
+  </body>
+</html>

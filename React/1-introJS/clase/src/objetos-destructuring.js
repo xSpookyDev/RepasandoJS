@@ -27,3 +27,12 @@ const detail = ({username, email})=>{
 }
 
 detail(user)
+
+
+//destructurar arreglo
+const user2 =['pepe', 'ana','maria', 'juan', 'sebastian', 'camila', 'josefa'];
+
+const [pepe, a, maria, ...jose] = user2;
+
+console.log(pepe, a, ...jose)
+
